@@ -3,7 +3,9 @@ ADBUninstalller是一个允许用户在非Root环境下对Android手机程序进
 注意：若要使用此程序对手机软件进行操作，需要你的手机接入电脑并开启USB调试模式
 # 程序介绍
 此例图是基于Android5.1的oppo a37m
-![image](https://user-images.githubusercontent.com/132123702/235470080-eafaad0c-65fe-4dab-9879-10183455d630.png)
+
+<img width="809" alt="屏幕截图 2023-05-02 014824" src="https://user-images.githubusercontent.com/132123702/235501220-88ac92d6-0048-4cfa-814a-1f5d020359f0.png">
+
 用户在启动程序时，程序会自动检索手机是否接入电脑，若用户电脑内拥有adb环境也可在cmd中键入adb devices来验证手机连接状况。当与电脑成功连接，则进入程序后程序会自动检索您手机中安装的应用程序。
 ## 面板介绍
 - 连接状态会在左下角显示
