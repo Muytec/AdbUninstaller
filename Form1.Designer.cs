@@ -173,7 +173,7 @@
             Controls.Add(statusButton);
             Controls.Add(statusText);
             Name = "Form1";
-            Text = "ADBUninstaller v0.1.0";
+            Text = "ADBUninstaller v0.1.1";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();

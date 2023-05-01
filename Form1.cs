@@ -90,17 +90,17 @@ namespace AdbUninstaller
                     var packageName = pair[1];
 
                     string appType;
-                    if (packagePath.StartsWith("/system/app"))
+                    if (packagePath.StartsWith("/system/"))
                     {
                         appType = "系统应用";
                     }
-                    else if (packagePath.StartsWith("/system/priv-app"))
+                    else if (packagePath.StartsWith("/data/"))
                     {
-                        appType = "系统特权应用";
+                        appType = "用户应用";
                     }
                     else
                     {
-                        appType = "用户应用";
+                        appType = "未知应用";
                     }
 
                     var appInfoJson = ExecuteShellCommand($"dumpsys package {packagePath}");

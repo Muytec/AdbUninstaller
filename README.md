@@ -16,4 +16,4 @@ ADBUninstalller是一个允许用户在非Root环境下对Android手机程序进
 - 安装操作：点击安装应用按钮，选择你电脑中的apk安装包（可多选）确定安装即可，安装操作需要在你的手机上一一确认安装，手机上取消安装会导致安装失败
 
 # 跟作者一起喝咖啡
-![S](https://user-images.githubusercontent.com/132123702/235470109-0642d072-1733-4876-85ce-24356df478ea.png)
+![image](https://user-images.githubusercontent.com/132123702/235288535-38e245a9-17c4-4ca3-93fc-f55db69c8654.jpg)
