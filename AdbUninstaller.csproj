@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>muyan.ico</ApplicationIcon>
+    <Version>0.1.0</Version>
+    <Authors>慕研</Authors>
+    <Company>muyan_kj</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="muyan.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="advancedsharpadbclient" Version="2.5.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="sharpadbclient" Version="2.3.23" />
+  </ItemGroup>
+
+</Project>
